@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: clouddrive-manager
+    env: docker
+    plan: free
+    region: oregon
+    dockerfilePath: Dockerfile
+    healthCheckPath: /api/transfer/list
+    envVars:
+      - key: PORT
+        value: 3000

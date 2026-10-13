@@ -1,0 +1,75 @@
+{
+  "id": "/",
+  "name": "CloudDrive Manager - Gerenciador de Downloads Google Drive",
+  "short_name": "CloudDrive",
+  "description": "Baixe links diretos HTTP/HTTPS, torrents, magnets e arquivos locais diretamente para o seu Google Drive na nuvem em alta velocidade.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "display_override": ["window-controls-overlay", "standalone", "minimal-ui"],
+  "orientation": "portrait",
+  "background_color": "#0f172a",
+  "theme_color": "#0f172a",
+  "lang": "pt-BR",
+  "dir": "ltr",
+  "categories": ["utilities", "productivity", "tools"],
+  "prefer_related_applications": false,
+  "icons": [
+    {
+      "src": "/pwa-64x64.png",
+      "sizes": "64x64",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/pwa-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/pwa-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/pwa-maskable-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/screenshot-desktop.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Torrent to Drive Desktop Dashboard"
+    },
+    {
+      "src": "/screenshot-mobile.png",
+      "sizes": "750x1334",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Torrent to Drive Mobile App"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Novo Download",
+      "short_name": "Novo",
+      "description": "Iniciar uma nova transferência de torrent",
+      "url": "/?tab=new",
+      "icons": [{ "src": "/pwa-192x192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Transferências",
+      "short_name": "Fila",
+      "description": "Ver transferências ativas",
+      "url": "/?tab=transfers",
+      "icons": [{ "src": "/pwa-192x192.png", "sizes": "192x192" }]
+    }
+  ]
+}
